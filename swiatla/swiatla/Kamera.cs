@@ -6,7 +6,6 @@ using System.Drawing;
 using System.Linq;
 using System.Text;
 using System.Windows.Forms;
-using OpenTK;
 
 namespace swiatla
 {
@@ -22,6 +21,7 @@ namespace swiatla
             Pen p = new Pen(Color.Black);
             e.Graphics.TranslateTransform(this.Width / 2, this.Height / 2);
             //e.Graphics.DrawLine(p, 0, 0, 40, 40); <-- test czy rysowanie dziala jak powinno
+            
         }
 
         //metoda do sterowania programem
