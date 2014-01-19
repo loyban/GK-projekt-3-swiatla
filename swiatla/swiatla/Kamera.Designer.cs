@@ -39,8 +39,9 @@
             this.KeyPreview = true;
             this.Name = "Kamera";
             this.Text = "Form1";
+            this.Paint += new System.Windows.Forms.PaintEventHandler(Kamera_Paint);
+            this.KeyDown += new System.Windows.Forms.KeyEventHandler(Kamera_KeyDown);
             this.ResumeLayout(false);
-
         }
 
         #endregion

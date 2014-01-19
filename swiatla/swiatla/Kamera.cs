@@ -20,8 +20,8 @@ namespace swiatla
         private void Kamera_Paint(object sender, PaintEventArgs e)
         {
             Pen p = new Pen(Color.Black);
-            e.Graphics.TranslateTransform(this.Parent.Width / 2, this.Parent.Height / 2);
-            e.Graphics.DrawLine(p, 0, 0, 40, 40);
+            e.Graphics.TranslateTransform(this.Width / 2, this.Height / 2);
+            //e.Graphics.DrawLine(p, 0, 0, 40, 40); <-- test czy rysowanie dziala jak powinno
         }
 
         //metoda do sterowania programem
