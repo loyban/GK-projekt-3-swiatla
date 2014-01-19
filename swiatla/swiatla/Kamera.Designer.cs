@@ -34,14 +34,17 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.AutoSize = true;
             this.ClientSize = new System.Drawing.Size(500, 500);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.KeyPreview = true;
             this.Name = "Kamera";
             this.Text = "Form1";
-            this.Paint += new System.Windows.Forms.PaintEventHandler(Kamera_Paint);
-            this.KeyDown += new System.Windows.Forms.KeyEventHandler(Kamera_KeyDown);
+            this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
+            this.Paint += new System.Windows.Forms.PaintEventHandler(this.Kamera_Paint);
+            this.KeyDown += new System.Windows.Forms.KeyEventHandler(this.Kamera_KeyDown);
             this.ResumeLayout(false);
+
         }
 
         #endregion

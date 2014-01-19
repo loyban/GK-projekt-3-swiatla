@@ -1,6 +1,5 @@
 C:\Users\Jakub\Documents\GitHub\GK-projekt-3-swiatla\swiatla\swiatla\bin\Debug\swiatla.exe
 C:\Users\Jakub\Documents\GitHub\GK-projekt-3-swiatla\swiatla\swiatla\bin\Debug\swiatla.pdb
-C:\Users\Jakub\Documents\GitHub\GK-projekt-3-swiatla\swiatla\swiatla\bin\Debug\OpenTK.dll
 C:\Users\Jakub\Documents\GitHub\GK-projekt-3-swiatla\swiatla\swiatla\obj\Debug\swiatla.csprojResolveAssemblyReference.cache
 C:\Users\Jakub\Documents\GitHub\GK-projekt-3-swiatla\swiatla\swiatla\obj\Debug\swiatla.Properties.Resources.resources
 C:\Users\Jakub\Documents\GitHub\GK-projekt-3-swiatla\swiatla\swiatla\obj\Debug\swiatla.csproj.GenerateResource.Cache
